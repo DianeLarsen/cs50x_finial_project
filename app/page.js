@@ -1,9 +1,10 @@
-import Image from 'next/image'
+import Welcome from '@/components/Welcome/Welcome'
 
-export default function Home() {
+
+export default function Main() {
   return (
     <>
-      <h1>Hey</h1>
+      <Welcome />
     </>
   )
 }
